@@ -7,6 +7,11 @@ Completed 3rd position for Year 2 category, and 5th position of 48 competitors o
 Frozen Scoreboard: [Scoreboard Screenshot](.files/.scoreboard.png) <br />
 Completed Challenges: [Challenges Screenshot](.files/.challenges.png)
 
+## Previous CTF Participated
+
+If you're interested in the 2022 NYP InfoSec (SIG)'s May CTF writeup, you can find it here:
+[https://github.com/taronaeo/CTF-NYP-MAY-2022](https://github.com/taronaeo/CTF-NYP-MAY-2022)
+
 ## Socials
 
 - Discord: @theglobalrussian
