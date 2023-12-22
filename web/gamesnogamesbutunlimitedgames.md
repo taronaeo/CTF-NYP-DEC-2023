@@ -1,6 +1,6 @@
 # Games or No Games But Unlimited Games
 
-**Challenge Category: Web**
+**Challenge Category: Web** <br />
 **Challenge Points: 500**
 
 ## Challenge Description
