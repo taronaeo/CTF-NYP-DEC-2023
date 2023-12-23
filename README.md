@@ -1,4 +1,6 @@
-# CTF-NYP-DEC-2023 ![Final Position](https://img.shields.io/badge/Finished_5th_Place_Overall-brightgreen?style=for-the-badge) ![Final Position](<https://img.shields.io/badge/Finished_3rd_Place_(Year_2_Category)-brightgreen?style=for-the-badge>)
+![CTF Profile](.files/.jumbotron.png "CTF Profile")
+
+# CTF-NYP-DEC-2023 ![Final Position](https://img.shields.io/badge/Finished_4th_Place_Overall-brightgreen?style=for-the-badge) ![Final Position](<https://img.shields.io/badge/Finished_3rd_Place_(Year_2_Category)-brightgreen?style=for-the-badge>)
 
 A collection of writeups for NYP InfoSec (SIG)'s CTF organised in Dec 2023.
 
