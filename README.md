@@ -1,10 +1,10 @@
 ![CTF Profile](.files/.jumbotron.png "CTF Profile")
 
-# CTF-NYP-DEC-2023 ![Final Position](https://img.shields.io/badge/Finished_4th_Place_Overall-brightgreen?style=for-the-badge) ![Final Position](<https://img.shields.io/badge/Finished_3rd_Place_(Year_2_Category)-brightgreen?style=for-the-badge>)
+# CTF-NYP-DEC-2023 ![Final Position](https://img.shields.io/badge/Finished_4th_Place_Overall-12758_Points-brightgreen?style=for-the-badge) ![Final Position](<https://img.shields.io/badge/Finished_3rd_Place_(Year_2_Category)-brightgreen?style=for-the-badge>)
 
 A collection of writeups for NYP InfoSec (SIG)'s CTF organised in Dec 2023.
 
-Completed 3rd position for Year 2 category, and 5th position of 48 competitors overall.
+Completed 3rd position for Year 2 category, and 4th position of 48 competitors overall.
 
 Frozen Scoreboard: [Scoreboard Screenshot](.files/.scoreboard.png) <br />
 Completed Challenges: [Challenges Screenshot](.files/.challenges.png)
