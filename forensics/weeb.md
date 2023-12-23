@@ -13,6 +13,8 @@ Got this from a weeb. There is probably data inside.
 
 Running commands such as `file`, `binwalk`, `exiftool` will not reveal the flag as it is really an image file. However, this is a steganography challenge.
 
+> Using tools such as `steghide` will not work on this file because it is a `png` file instead of `jpeg`.
+
 ```sh
 $ zsteg bruh_moment.png
 ```
