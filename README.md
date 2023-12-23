@@ -1,4 +1,4 @@
-# CTF-NYP-DEC-2023
+# CTF-NYP-DEC-2023 ![Final Position](<https://img.shields.io/badge/Final_Position_(Overall)-5th_Place-brightgreen?style=for-the-badge>) ![Final Position](<https://img.shields.io/badge/Final_Position_(Year_2_Category)-3rd_Place-brightgreen?style=for-the-badge>)
 
 A collection of writeups for NYP InfoSec (SIG)'s CTF organised in Dec 2023.
 
@@ -24,7 +24,7 @@ If you're interested in the 2022 NYP InfoSec (SIG)'s May CTF writeup, you can fi
 | Warmup    | Warmup                                 | Solved   | `NYP{read_the_rules}`                      | (No Writeup Required)                            |                                                                                                                                             |
 | Web       | Poro!                                  | Solved   | `NYP{h1diNG_IN_p@g3_!N5pe(T}`              | (WIP)                                            |                                                                                                                                             |
 | Web       | Games or No Games But Unlimited Games  | Solved   | `NYP{Fl4$K_$ST1_1nj3ct10n@1B2C3}`          | [(Here)](./web/gamesnogamesbutunlimitedgames.md) |                                                                                                                                             |
-| Web       | Requesting Guidebook                   | Solved   | `NYP{1n53cURE_AP1_H4Ck1nG_4_r00k1es}`      | (WIP)                                            |                                                                                                                                             |
+| Web       | Requesting Guidebook                   | Solved   | `NYP{1n53cURE_AP1_H4Ck1nG_4_r00k1es}`      | [(Here)](./web/requestingguidebook.md)           |                                                                                                                                             |
 | Web       | Ouch                                   | Solved   | `NYP{oUcH_tH3_1nj3c71on_w@s_p@infu1}`      | (WIP)                                            |                                                                                                                                             |
 | Web       | Where you from?                        | Solved   | `NYP{3z_r3fer3r}`                          | (WIP)                                            |                                                                                                                                             |
 | Web       | Genshin Code                           | Unsolved |                                            |                                                  |                                                                                                                                             |
