@@ -68,3 +68,4 @@ If you're interested in the 2022 NYP InfoSec (SIG)'s May CTF writeup, you can fi
 ## Tools Used
 
 - [zsteg](https://github.com/zed-0xff/zsteg)
+- [stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
