@@ -22,7 +22,7 @@ I recieved a secret message from the JONKLER in Arkham Asylum. It says: t-t-tHE 
 4. Using `ctf' OR 1=1--` result in the same values reflected back on the webpage, hinting that it might not be a SQL Injection attack.
 5. Using `<h1>helloworld</h1>` result in a `404 Not Found` error, hinting that it might not be an XSS attack as well.
 
-## Plausible Server Side Template Injection (SSTI)
+### Plausible Server Side Template Injection (SSTI)
 
 6. Using `{{ self.__init__.__globals__.__builtins__ }}` result in Python data getting returned back, hinting strongly that it is a Server Side Template Injection attack.
 
