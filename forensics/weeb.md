@@ -42,7 +42,7 @@ b4,abgr,msb,xy      .. text: "sOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsOsO
 Let's cleanup the output.
 
 ```sh
-$ zsteg forensics_weeb.png | grep -o "NYP{.*}"
+$ zsteg bruh_moment.png | grep -o "NYP{.*}"
 ```
 
 ```
