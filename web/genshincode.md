@@ -134,7 +134,7 @@ As expected, the cookie issued from the server does not work.
 
 The cookie issued by the server resembles much of a JWT token. We can try to decode it and see what is inside.
 
-![JWT Decode](../.files/web_genshin_code_1.png "JWT Decode")
+![JWT Decode](../.files/web_genshin_code.png "JWT Decode")
 
 We definitely get something back. But, this token doesn't seem up-to-spec with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) because the payload is in the header, and there is no header to begin with.
 
