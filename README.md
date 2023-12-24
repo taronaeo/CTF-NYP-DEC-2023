@@ -19,6 +19,13 @@ If you're interested in the 2022 NYP InfoSec (SIG)'s May CTF writeup, you can fi
 - Discord: @theglobalrussian
 - LinkedIn: [in/taronaeo](https://linkedin.com/in/taronaeo)
 
+## Tools Used
+
+- [zsteg](https://github.com/zed-0xff/zsteg)
+- [stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+- [flask-unsign](https://github.com/Paradoxis/Flask-Unsign)
+- html2text (sudo apt install html2text)
+
 ## Table Of Challenges
 
 | Category  | Challenge                              | Status   | Flag                                       | Writeup                                                                                                                                                                        | Files                                                                                                                                       |
@@ -64,8 +71,3 @@ If you're interested in the 2022 NYP InfoSec (SIG)'s May CTF writeup, you can fi
 | Misc      | Uncalibrated Algorithm                 | Unsolved |                                            | [(Looking for writeup)](https://github.com/taronaeo/CTF-NYP-DEC-2023/pulls)                                                                                                    | [(Uncalibrated_algorithm.py)](.files/misc_uncalibrated_algorithm.py)                                                                        |
 | Misc      | Netception                             | Unsolved |                                            | (WIP)                                                                                                                                                                          | [(ctf_challenge.pka)](.files/misc_netception.pka)                                                                                           |
 | Physical  | Physical Challenge - Slay the Dragron  | Solved   | `NYP{DR4G0N_5L@IN3D!}`                     | (WIP)                                                                                                                                                                          |                                                                                                                                             |
-
-## Tools Used
-
-- [zsteg](https://github.com/zed-0xff/zsteg)
-- [stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
