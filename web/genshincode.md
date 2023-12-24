@@ -201,6 +201,6 @@ $ curl -s --cookie "mihoyo_admin=eyJsb2dnZWRfaW4iOnRydWV9.ZYhT-Q.vysFmPznT24skox
 NYP{fL@sK_s3ss1On_m@N1pulAT10N}
 ```
 
-## Final Remarks
+## Additional Read
 
-Although this challenge was pretty straightforward, breaking spec [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) made the challenge almost undoable unless there was a hint to Flask's own implementation of JWT, with mentions that it is out-of-spec.
+- [Baking Flask cookies with your secrets](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
