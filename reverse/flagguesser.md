@@ -114,11 +114,11 @@ Re-attempt steps 2 to 4, and you should get a successful run.
 ```
 
 ```diff
-The program being debugged has been started already.
-Start it from the beginning? (y or n) y
-Starting program: flag_guesser
-[Thread debugging using libthread_db enabled]
-Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+  The program being debugged has been started already.
+  Start it from the beginning? (y or n) y
+  Starting program: flag_guesser
+  [Thread debugging using libthread_db enabled]
+  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
 + Guess the flag: geagega
 
 + Breakpoint 2, 0x0000555555555060 in strcmp@plt ()
@@ -130,36 +130,36 @@ Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
 (gdb) info registers
 ```
 
-```sh
-rax            0x7fffffffdd30      140737488346416
-rbx            0x37                55
-rcx            0x594e007d          1498284157
-rdx            0x7fffffffdd70      140737488346480
-rsi            0x7fffffffdd70      140737488346480
-rdi            0x7fffffffdd30      140737488346416
-rbp            0x7fffffffde00      0x7fffffffde00
-rsp            0x7fffffffdd18      0x7fffffffdd18
-r8             0x7fffffffdd20      140737488346400
-r9             0x7ffff7f9eaa0      140737353738912
-r10            0x7ffff7ddd0a0      140737351897248
-r11            0x7ffff7f1f270      140737353216624
-r12            0x0                 0
-r13            0x7fffffffdf28      140737488346920
-r14            0x555555557dd8      93824992247256
-r15            0x7ffff7ffd000      140737354125312
-rip            0x555555555060      0x555555555060 <strcmp@plt>
-eflags         0x246               [ PF ZF IF ]
-cs             0x33                51
-ss             0x2b                43
-ds             0x0                 0
-es             0x0                 0
-fs             0x0                 0
-gs             0x0                 0
+```diff
++ rax            0x7fffffffdd30      140737488346416
+  rbx            0x37                55
+  rcx            0x594e007d          1498284157
+  rdx            0x7fffffffdd70      140737488346480
+  rsi            0x7fffffffdd70      140737488346480
+  rdi            0x7fffffffdd30      140737488346416
+  rbp            0x7fffffffde00      0x7fffffffde00
+  rsp            0x7fffffffdd18      0x7fffffffdd18
+  r8             0x7fffffffdd20      140737488346400
+  r9             0x7ffff7f9eaa0      140737353738912
+  r10            0x7ffff7ddd0a0      140737351897248
+  r11            0x7ffff7f1f270      140737353216624
+  r12            0x0                 0
+  r13            0x7fffffffdf28      140737488346920
+  r14            0x555555557dd8      93824992247256
+  r15            0x7ffff7ffd000      140737354125312
+  rip            0x555555555060      0x555555555060 <strcmp@plt>
+  eflags         0x246               [ PF ZF IF ]
+  cs             0x33                51
+  ss             0x2b                43
+  ds             0x0                 0
+  es             0x0                 0
+  fs             0x0                 0
+  gs             0x0                 0
 ```
 
 `rax` is interesting here because by convention, `rax` is used to store a function's return value.
 
-7. Convert memory address to string
+7. Convert `rax` memory address to string
 
 ```sh
 (gdb) x/s 0x7fffffffdd30
