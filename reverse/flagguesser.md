@@ -159,7 +159,7 @@ Re-attempt steps 2 to 4, and you should get a successful run.
 
 `rax` is interesting here because by convention, `rax` is used to store a function's return value.
 
-7. Convert `rax` memory address to string
+7. Convert `rax` memory address to string.
 
 ```sh
 (gdb) x/s 0x7fffffffdd30
